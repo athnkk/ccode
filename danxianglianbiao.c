@@ -10,6 +10,7 @@ struct NodeList
 typedef struct NodeList * NodeListPtr;
 
 /** 
+ * @ingroup node
  * @description 显示链表中数据，输入链表中表头
  * 
  * @author athnkk 
@@ -35,6 +36,7 @@ unsigned int ShowNodeList(NodeListPtr p_head)
 }
 
 /** 
+ * @ingroup node
  * @description 插入数据，在表尾插入数据
  * 
  * @author athnkk 
@@ -74,6 +76,7 @@ NodeListPtr InsertNodeList(NodeListPtr p_head, int data)
 }
 
 /** 
+ * @ingroup node
  * @description 在指定位置插入数据
  * 
  * @author athnkk 
@@ -120,6 +123,7 @@ NodeListPtr InsertNodeListWithCursor(NodeListPtr p_head, int cursor, int data)
 }
 
 /** 
+ * @ingroup node
  * @description 查找数据
  * 
  * @author athnkk 
@@ -152,6 +156,7 @@ unsigned int FindNodeList(NodeListPtr p_head, int data)
 }
 
 /** 
+ * @ingroup node
  * @description 链表数据排列按照升序排列
  * 
  * @author athnkk 
@@ -190,6 +195,7 @@ unsigned int SortNodeListAesc(NodeListPtr p_head)
 }
 
 /** 
+ * @ingroup node
  * @description 链表数据排列按照升序排列
  * 
  * @author athnkk 
